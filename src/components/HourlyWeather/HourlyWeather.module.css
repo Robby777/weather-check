@@ -1,0 +1,32 @@
+.Hourly {
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  flex-shrink: 0;
+  overflow: scroll;
+  margin-top: 10px 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+}
+
+.SingleHour {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  border: 1px solid;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.Icon {
+    width: 70px;
+}
+
+.Temprature {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.FeelsLike {
+    font-size: 13px;
+}
